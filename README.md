@@ -28,7 +28,7 @@ The main purpose of this network is to expose a load-balanced and monitored inst
 
 Load balancing ensures that the application will be highly available for customers, in addition to restricting attacks to the network. If a server goes down, or needs to be updated, services will still continue. -The advantage of using a jump box is that only the jump box can access the Virutal network via ssh.
 
-Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the logs and system traffic.
+Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the logs and system traffic. 
 - Filebeat monitors the log files or locations specified, collects log events, and forwards them either to Elasticsearch or Logstash for indexing.
 - Metricbeat is an extremely easy-to-use, efficient and reliable metric shipper for monitoring your system and the processes running on it. The configuration details of each machine may be found below.
 
